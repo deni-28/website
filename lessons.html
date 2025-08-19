@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Literacy Learning - Lessons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>eduRead and Rise Learning</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="lessons.html">Lessons</a>
+        
+        </li>
+        <li>
+          <a href="quizzes.html">Quizzes</a>
+          <ul>
+            <li><a href="quizzes.html#reading-quiz">Reading</a></li>
+            <li><a href="quizzes.html#writing-quiz">Writing</a></li>
+            <li><a href="quizzes.html#grammar-quiz">Grammar</a></li>
+            <li><a href="quizzes.html#vocabulary-quiz">Vocabulary</a></li>
+            <li><a href="quizzes.html#comprehension-quiz">Comprehension</a></li>
+          </ul>
+        </li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Request a Learning Guide</h2>
+    <form>
+      <fieldset>
+        <legend>Request Form</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="topic">Preferred Lesson Topic:</label><br>
+        <select id="topic" name="topic">
+          <option>Reading</option>
+          <option>Writing</option>
+          <option>Grammar</option>
+          <option>Vocabulary</option>
+          <option>Comprehension</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+
+    <h2>Lesson Summaries</h2>
+    <div class="lessons-grid">
+      <div class="lesson-box" id="reading"><h3>Reading Skills</h3><p>Learn strategies for improving reading speed and understanding.</p></div>
+      <div class="lesson-box" id="writing"><h3>Writing Skills</h3><p>Develop writing fluency, grammar, and style.Improving creativity and planning skills.</p></div>
+      <div class="lesson-box" id="grammar"><h3>Grammar Basics</h3><p>Master sentence structure and punctuation rules. Improve overall speech and understanding.</p></div>
+      <div class="lesson-box" id="vocabulary"><h3>Vocabulary Building</h3><p>Expand your word bank and improve word usage. Learn new words and express yourself more clearly.</p></div>
+      <div class="lesson-box" id="comprehension"><h3>Comprehension Practice</h3><p>Enhance understanding of texts with exercises.</p></div>
+    </div>
+
+    <h2>Lesson Topics Summary</h2>
+    <table>
+      <tr><th>Topic</th><th>Description</th></tr>
+      <tr><td>Reading</td><td>Improve reading fluency and comprehension</td></tr>
+      <tr><td>Writing</td><td>Practice writing essays, paragraphs, and creative work</td></tr>
+      <tr><td>Grammar</td><td>Learn rules of sentence structure</td></tr>
+      <tr><td>Vocabulary</td><td>Expand knowledge of words and meanings</td></tr>
+      <tr><td>Comprehension</td><td>Answer questions to check understanding</td></tr>
+    </table>
+  </main>
+
+
+    <footer>
+    <p>&copy; 2025 eduRead and Rise Learning. All rights reserved.</p>
+  </footer>
+</body>
+</html>
